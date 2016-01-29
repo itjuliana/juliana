@@ -17,9 +17,22 @@ Text Domain:	juliana
 -------------------------------------------------------------- */
 
 @import "bourbon/bourbon";
-// @import 'susy';
 @import '../storefront/assets/sass/utils/variables';
 
+// Main
+@import "sass/main";
+
+// Header
+@import "sass/header";
+@import "sass/menu-top";
+@import "sass/cart-header";
+@import "sass/search-header";
+
+// Footer
+@import "sass/footer";
+
+
+// Variables
 $orange: 	#b64902;
 $blue: 		#0e7784;
 $chocolate: #7D5D4E;

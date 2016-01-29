@@ -1,0 +1,5 @@
+.site-header{
+    @include linear-gradient(to top, #f4f4f4, #dedede);
+    padding-top: 0;
+    border-bottom: 10px solid #000;
+}
