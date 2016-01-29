@@ -16,8 +16,8 @@ Text Domain:	juliana
 /* =Juliana styles starts here
 -------------------------------------------------------------- */
 
-@import 'bourbon';
-@import 'susy';
+@import "bourbon/bourbon";
+// @import 'susy';
 @import '../storefront/assets/sass/utils/variables';
 
 $orange: 	#b64902;
