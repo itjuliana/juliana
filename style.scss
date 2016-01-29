@@ -1,0 +1,35 @@
+/*
+Theme Name:		Juliana
+Theme URI:		http://www.woothemes.com/products/deli/
+Description:	Juliana is offical is official Juliana Nails theme. Juliana is a Storefront child theme.
+Author:			Ivan Bagaric & Nenda Durin
+Author URI:		http://juliana-nails.com
+Template:		storefront
+Version:		0.1
+License:		GNU General Public License v2 or later
+License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+Tags:			dark, invert, storen, shop
+Text Domain:	juliana
+*/
+
+
+/* =Juliana styles starts here
+-------------------------------------------------------------- */
+
+@import 'bourbon';
+@import 'susy';
+@import '../storefront/assets/sass/utils/variables';
+
+$orange: 	#b64902;
+$blue: 		#0e7784;
+$chocolate: #7D5D4E;
+$jasper:	#D28779;
+$sage:		#98a98b;
+$camelot: 	#91385c;
+$pink:		#c98db5;
+
+$sans-serif: 'Lato', sans-serif;
+$serif: 'Copse', sans-serif;
+$condensed: 'Oswald', sans-serif;
+$monospace: 'Anonymous Pro', monospace;
+$handwritten: 'Kalam';
