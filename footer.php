@@ -8,7 +8,9 @@
  */
 ?>
        
-        <?php get_template_part( 'newsletter'); ?>
+        <?php get_template_part( 'footer-newsletter'); ?>
+        
+        <?php get_template_part( 'footer-info'); ?>
 
 		</div><!-- .col-full -->
 	</div><!-- #content -->

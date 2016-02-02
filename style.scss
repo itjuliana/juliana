@@ -16,29 +16,29 @@ Text Domain:	juliana
 /* =Juliana styles starts here
 -------------------------------------------------------------- */
 
+@import "bourbon/bourbon";
+@import '../storefront/assets/sass/utils/variables';
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
 // Variables
-$orange: 	#b64902;
-$blue: 		#0e7784;
-$chocolate: #7D5D4E;
-$jasper:	#D28779;
-$sage:		#98a98b;
-$camelot: 	#91385c;
-$pink:		#c98db5;
+$jn-red:    #ef4035;
+$jn-red-light-10:    lighten($jn-red, 10%);
+$jn-red-light-20:    lighten($jn-red, 20%);
+$jn-red-light-30:    lighten($jn-red, 30%);
+$jn-red-light-40:    lighten($jn-red, 40%);
+$jn-red-light-50:    lighten($jn-red, 50%);
+
 
 $sans-serif: 'Lato', sans-serif;
 $serif: 'Copse', sans-serif;
 $condensed: 'Oswald', sans-serif;
 $monospace: 'Anonymous Pro', monospace;
-$handwritten: 'Kalam';
 
-
-@import "bourbon/bourbon";
-@import '../storefront/assets/sass/utils/variables';
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 // Main
 @import "sass/main";
-@import "sass/newsletter";
+
 
 // Header
 @import "sass/header";
@@ -48,3 +48,5 @@ $handwritten: 'Kalam';
 
 // Footer
 @import "sass/footer";
+@import "sass/footer-newsletter";
+@import "sass/footer-info";
