@@ -1,3 +1,13 @@
 body{
     @include linear-gradient(#222222 0px, #222222 214px, #f4f4f4);
+    font-family: $sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 12px 0;
+    text-rendering: optimizelegibility;
 }

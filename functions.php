@@ -28,4 +28,16 @@ function storefront_display_custom_logo() {
 <?php
 }
 
+
+
+
+
+
+function storefront_credit() {
+    ?>
+	<div class="site-info">
+	    <?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+    </div><!-- .site-info -->
+	<?php
+	}
 ?>

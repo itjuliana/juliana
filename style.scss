@@ -16,35 +16,31 @@ Text Domain:	juliana
 /* =Juliana styles starts here
 -------------------------------------------------------------- */
 
-@import "bourbon/bourbon";
+// Bourbon
+// See: http://bourbon.io/docs/
+@import 'bourbon/bourbon';
+
+// Susy
+// Susy grid system. See: http://susydocs.oddbird.net/en/latest/
+@import 'node_modules/susy/sass/susy';
+
+// Import Variable and Fonts
 @import '../storefront/assets/sass/utils/variables';
+@import 'sass/variables';
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-
-// Variables
-$jn-red:    #ef4035;
-$jn-red-light-10:    lighten($jn-red, 10%);
-$jn-red-light-20:    lighten($jn-red, 20%);
-$jn-red-light-30:    lighten($jn-red, 30%);
-$jn-red-light-40:    lighten($jn-red, 40%);
-$jn-red-light-50:    lighten($jn-red, 50%);
-
-
-$sans-serif: 'Lato', sans-serif;
-$serif: 'Copse', sans-serif;
-$condensed: 'Oswald', sans-serif;
-$monospace: 'Anonymous Pro', monospace;
-
 
 // Main
 @import "sass/main";
 
+// Layout
+@import 'sass/layout';
 
 // Header
 @import "sass/header";
-@import "sass/menu-top";
-@import "sass/cart-header";
-@import "sass/search-header";
+@import "sass/header-menu-main";
+@import "sass/header-menu-top";
+@import "sass/header-cart";
+@import "sass/header-search";
 
 // Footer
 @import "sass/footer";

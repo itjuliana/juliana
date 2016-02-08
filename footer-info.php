@@ -1,22 +1,22 @@
 <div class="footer-info">
    
     <a href="#">
-        <h1>SATISFACTION</h1>
-        <h2>
+        <h4>SATISFACTION</h4>
+        <h5>
             <?php echo __( '100% GUARANTEE', 'juliana' ); ?>
-        </h2>
+        </h5>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>       
     </a>
 
    <a href="#">
-      <h1>FREE SHIPPING</h1>
-      <h2>ON ORDER OVER 99€</h2>
+      <h4>FREE SHIPPING</h4>
+      <h5>ON ORDER OVER 99€</h5>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>       
    </a>
    
    <a href="#">
-      <h1>14 DAY</h1>
-      <h2>EASY RETURNE</h2>
+      <h4>14 DAY</h4>
+      <h5>EASY RETURNE</h5>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>       
    </a>
     

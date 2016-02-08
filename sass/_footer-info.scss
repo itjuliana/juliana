@@ -2,7 +2,6 @@
     background-color: #181818;
     float: left;
     padding: 10px 20px;
-    font-family: $sans-serif;
     word-wrap: break-word;
     a{
         float: left;
@@ -15,24 +14,26 @@
         &:hover{
             background-color: #000;
         }
-        h1{
+        h4{
             color: #fff;
             font-size: 43px;
             font-weight: bold;
             line-height: 45px;
             margin: 0;
+            font-family: $sans-serif;
         }
-        h2{
+        h5{
             color: #fe7fb8;
             font-size: 31px;
             font-weight: 300;
             line-height: 33px;
+            font-family: $sans-serif;
         }
         p{
             color: #fff;
             font-size: 15px;
             font-weight: 300;
-            line-height: 24px;  
+            line-height: 24px;
         }
     }
-}
+} 

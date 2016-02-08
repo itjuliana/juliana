@@ -1,0 +1,26 @@
+.secondary-navigation{
+    ul.menu{
+        margin-top: 30px;    
+        li{
+            border-right: 1px solid #dddddd;
+            display: inline-block;
+            list-style: outside none none;
+            padding: 0 13px;
+            &:last-child{
+                border: none;
+            }
+            a{
+                color: #fe7fb8;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 17px;
+                text-decoration: none;
+                padding: 0;
+                transition: all 300ms ease 0s;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+}
